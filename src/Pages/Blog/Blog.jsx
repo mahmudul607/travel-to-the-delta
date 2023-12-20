@@ -1,9 +1,11 @@
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Blog = () => {
     return (
         <div>
-            This is a blog page
+            <Navbar></Navbar>
+            This is Blog
         </div>
     );
 };

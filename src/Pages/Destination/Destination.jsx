@@ -1,9 +1,11 @@
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Destination = () => {
     return (
         <div>
-            this is destination page
+            <Navbar></Navbar>
+            This is Destination page
         </div>
     );
 };
